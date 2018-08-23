@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2B04F02E212EFDA900F7A37A /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F02D212EFDA900F7A37A /* Constantes.swift */; };
 		2B04F030212EFED700F7A37A /* Sol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F02F212EFED700F7A37A /* Sol.swift */; };
+		2B04F032212F05D100F7A37A /* MonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F031212F05D100F7A37A /* MonLabel.swift */; };
+		2B04F034212F095700F7A37A /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F033212F095700F7A37A /* Obstacle.swift */; };
+		2B04F036212F0A3600F7A37A /* Cercle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F035212F0A3600F7A37A /* Cercle.swift */; };
+		2B04F038212F0B8300F7A37A /* Carre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F037212F0B8300F7A37A /* Carre.swift */; };
 		2B943D8D212EF23D0024EB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B943D8C212EF23D0024EB70 /* AppDelegate.swift */; };
 		2B943D8F212EF23D0024EB70 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B943D8E212EF23D0024EB70 /* GameScene.sks */; };
 		2B943D91212EF23D0024EB70 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B943D90212EF23D0024EB70 /* Actions.sks */; };
@@ -23,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2B04F02D212EFDA900F7A37A /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		2B04F02F212EFED700F7A37A /* Sol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sol.swift; sourceTree = "<group>"; };
+		2B04F031212F05D100F7A37A /* MonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonLabel.swift; sourceTree = "<group>"; };
+		2B04F033212F095700F7A37A /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		2B04F035212F0A3600F7A37A /* Cercle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cercle.swift; sourceTree = "<group>"; };
+		2B04F037212F0B8300F7A37A /* Carre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carre.swift; sourceTree = "<group>"; };
 		2B943D89212EF23D0024EB70 /* ColorBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B943D8C212EF23D0024EB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B943D8E212EF23D0024EB70 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -118,6 +126,10 @@
 			children = (
 				2B943DA8212EF9AA0024EB70 /* Joueur.swift */,
 				2B04F02F212EFED700F7A37A /* Sol.swift */,
+				2B04F031212F05D100F7A37A /* MonLabel.swift */,
+				2B04F033212F095700F7A37A /* Obstacle.swift */,
+				2B04F035212F0A3600F7A37A /* Cercle.swift */,
+				2B04F037212F0B8300F7A37A /* Carre.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,8 +211,12 @@
 				2B943D93212EF23D0024EB70 /* GameScene.swift in Sources */,
 				2B04F030212EFED700F7A37A /* Sol.swift in Sources */,
 				2B943DA9212EF9AA0024EB70 /* Joueur.swift in Sources */,
+				2B04F032212F05D100F7A37A /* MonLabel.swift in Sources */,
+				2B04F036212F0A3600F7A37A /* Cercle.swift in Sources */,
 				2B943D95212EF23D0024EB70 /* GameViewController.swift in Sources */,
+				2B04F034212F095700F7A37A /* Obstacle.swift in Sources */,
 				2B943D8D212EF23D0024EB70 /* AppDelegate.swift in Sources */,
+				2B04F038212F0B8300F7A37A /* Carre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
