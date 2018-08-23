@@ -13,6 +13,7 @@
 		2B04F034212F095700F7A37A /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F033212F095700F7A37A /* Obstacle.swift */; };
 		2B04F036212F0A3600F7A37A /* Cercle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F035212F0A3600F7A37A /* Cercle.swift */; };
 		2B04F038212F0B8300F7A37A /* Carre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F037212F0B8300F7A37A /* Carre.swift */; };
+		2B04F03A212F216900F7A37A /* Extension Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B04F039212F216900F7A37A /* Extension Collision.swift */; };
 		2B943D8D212EF23D0024EB70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B943D8C212EF23D0024EB70 /* AppDelegate.swift */; };
 		2B943D8F212EF23D0024EB70 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B943D8E212EF23D0024EB70 /* GameScene.sks */; };
 		2B943D91212EF23D0024EB70 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B943D90212EF23D0024EB70 /* Actions.sks */; };
@@ -31,6 +32,7 @@
 		2B04F033212F095700F7A37A /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
 		2B04F035212F0A3600F7A37A /* Cercle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cercle.swift; sourceTree = "<group>"; };
 		2B04F037212F0B8300F7A37A /* Carre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carre.swift; sourceTree = "<group>"; };
+		2B04F039212F216900F7A37A /* Extension Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension Collision.swift"; sourceTree = "<group>"; };
 		2B943D89212EF23D0024EB70 /* ColorBee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorBee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B943D8C212EF23D0024EB70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B943D8E212EF23D0024EB70 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2B943D92212EF23D0024EB70 /* GameScene.swift */,
+				2B04F039212F216900F7A37A /* Extension Collision.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				2B04F034212F095700F7A37A /* Obstacle.swift in Sources */,
 				2B943D8D212EF23D0024EB70 /* AppDelegate.swift in Sources */,
 				2B04F038212F0B8300F7A37A /* Carre.swift in Sources */,
+				2B04F03A212F216900F7A37A /* Extension Collision.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KUX2554RJ;
 				INFOPLIST_FILE = ColorBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KUX2554RJ;
 				INFOPLIST_FILE = ColorBee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

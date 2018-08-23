@@ -12,6 +12,7 @@ class Obstacle: SKNode {
     
     func miseEnPlace() {
         guard let path = creerForme() else { return }
+        zPosition = 0
         for x in (0...3) {
             let quart = SKShapeNode(path: path.cgPath)
             quart.fillColor = COULEURS[x]
@@ -26,6 +27,10 @@ class Obstacle: SKNode {
             quart.physicsBody = body
             addChild(quart)
         }
+        
+        let action = SKAction.rotate(byAngle: CGFloat(Double.pi / 2), duration: 5)
+        let repetition = SKAction.repeatForever(action)
+        run(repetition)
         
     }
     
