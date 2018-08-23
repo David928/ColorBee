@@ -60,17 +60,41 @@
 		2B943D8B212EF23D0024EB70 /* ColorBee */ = {
 			isa = PBXGroup;
 			children = (
+				2B943DA6212EF47B0024EB70 /* Scene */,
+				2B943DA5212EF4600024EB70 /* Controller */,
+				2B943DA4212EF4080024EB70 /* Visuel */,
 				2B943D8C212EF23D0024EB70 /* AppDelegate.swift */,
-				2B943D8E212EF23D0024EB70 /* GameScene.sks */,
-				2B943D90212EF23D0024EB70 /* Actions.sks */,
-				2B943D92212EF23D0024EB70 /* GameScene.swift */,
-				2B943D94212EF23D0024EB70 /* GameViewController.swift */,
-				2B943D96212EF23D0024EB70 /* Main.storyboard */,
 				2B943D99212EF23F0024EB70 /* Assets.xcassets */,
-				2B943D9B212EF23F0024EB70 /* LaunchScreen.storyboard */,
 				2B943D9E212EF23F0024EB70 /* Info.plist */,
 			);
 			path = ColorBee;
+			sourceTree = "<group>";
+		};
+		2B943DA4212EF4080024EB70 /* Visuel */ = {
+			isa = PBXGroup;
+			children = (
+				2B943D90212EF23D0024EB70 /* Actions.sks */,
+				2B943D96212EF23D0024EB70 /* Main.storyboard */,
+				2B943D9B212EF23F0024EB70 /* LaunchScreen.storyboard */,
+				2B943D8E212EF23D0024EB70 /* GameScene.sks */,
+			);
+			path = Visuel;
+			sourceTree = "<group>";
+		};
+		2B943DA5212EF4600024EB70 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B943D94212EF23D0024EB70 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B943DA6212EF47B0024EB70 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				2B943D92212EF23D0024EB70 /* GameScene.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
